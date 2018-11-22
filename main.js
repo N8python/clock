@@ -31,7 +31,7 @@ window.onload = function() {
     ctx.rotate(((((date.getHours() % 12) * 30) + (0.5 * date.getMinutes()) + (0.008 * date.getSeconds()))) * Math.PI / 180)
     ctx.beginPath();
     ctx.moveTo(0, 0);
-    ctx.lineTo(0, -40);
+    ctx.lineTo(0, -60);
     ctx.stroke();
     ctx.rotate(((((date.getHours() % 12) * 30) + (0.5 * date.getMinutes()) + (0.008 * date.getSeconds()))) * Math.PI * -1 / 180)
     ctx.translate(-110, -110)
